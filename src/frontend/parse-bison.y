@@ -1,8 +1,11 @@
 %{
+  
     /*
      * (compile (concat "bison -ydo parse-bison.c " (file-relative-name buffer-file-name)))
      */
-
+  #define YY_HEADER_EXPORT_START_CONDITIONS 1
+  #define YY_YY_Y_TAB_H_INCLUDED 1
+  
   #include "ngspice/ngspice.h"
   #include "ngspice/fteparse.h"
 

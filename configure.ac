@@ -29,7 +29,8 @@ AC_REVISION([$Revision$])
 AC_CONFIG_HEADER([src/include/ngspice/config.h])
 
 # Initialise automake stuff
-AM_INIT_AUTOMAKE([-Wall -Werror nostdinc serial-tests subdir-objects])
+#AM_INIT_AUTOMAKE([-Wall -Werror nostdinc serial-tests subdir-objects])
+AM_INIT_AUTOMAKE([-Wall -Werror nostdinc subdir-objects])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 ext_CFLAGS="${CFLAGS+yes}"

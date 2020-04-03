@@ -19,7 +19,6 @@ Author: 1985 Wayne A. Christopher, U. C. Berkeley CAD Group
 #include "parse-bison.h"
 #include "parse-bison-y.h"
 
-
 static bool checkvalid(struct pnode *pn);
 
 #ifdef OLD_BISON
